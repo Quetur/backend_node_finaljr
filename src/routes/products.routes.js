@@ -1,6 +1,7 @@
 import express from "express"
 import {
     addProduct,
+    editProduct,
     deleteProduct,
     getAllProducts,
     getProductById
@@ -17,9 +18,7 @@ routes.post("/products/create",authentication, addProduct)
 
 routes.delete("/products/:id",authentication, deleteProduct)
 
-//routes.put("/products/:id", editProduct)
-
-//routes.post("/products", )
+routes.put("/products/:id", authentication, editProduct)
 
 
 export default routes;

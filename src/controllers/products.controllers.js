@@ -28,7 +28,7 @@ export const deleteProduct = async (req, res) => {
     }  
 }
 
-/*
+
 export const editProduct = async (req, res) => {
     try{
         const id = req.params.id
@@ -42,7 +42,7 @@ export const editProduct = async (req, res) => {
     }catch(error){
         res.status(500).send()
     }
-}*/
+}
 
 export const getAllProducts = async (req, res) => {
     try{
