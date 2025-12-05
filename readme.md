@@ -61,6 +61,19 @@ Retorna
         "id": "8pzFFB4fEGYqhgetkVud"
     }
 
+•	Modifica un producto(token)
+PUT
+https://backend-node-finaljr.vercel.app/api/products//8pzFFB4fEGYqhgetkVud
+
+body
+{
+
+    "precio": 1200
+
+}
+
+Retorna
+producto actualizado
 
 •	Eliminar un solo producto(token)
 DELETE
